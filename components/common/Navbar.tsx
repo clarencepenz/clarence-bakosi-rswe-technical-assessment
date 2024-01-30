@@ -19,7 +19,7 @@ function Navbar() {
         <Input
           type="text"
           placeholder="Search for a property"
-          className="bg-transparent border-none focus-visible:ring-1 focus-visible:ring-sri-primary focus-visible:ring-offset-0 text-sm font-normal leading-normal rounded-3xl  pl-4"
+          className="bg-transparent border-none focus-visible:ring-1 focus-visible:ring-sri-primary text-sm font-normal leading-normal rounded-3xl  pl-4"
         />
         <Mixer className="mr-3 absolute right-0 bg-sri-secondary" />
       </form>
