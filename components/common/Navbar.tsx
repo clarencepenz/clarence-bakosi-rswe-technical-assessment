@@ -10,8 +10,8 @@ function Navbar() {
     <nav className="flex gap-4 justify-between items-center  pt-2">
       <Image
         src={PREVIEW_IMAGE("Logo", "logo")}
-        height={24.738}
-        width={55.662}
+        height={40.2}
+        width={75.762}
         alt="SRI"
       />
 
