@@ -29,7 +29,7 @@ export default function AppsNavTab({
 }: Props) {
   return (
     <Tabs defaultValue={defaultValue} className="w-full h-full flex flex-col">
-      <TabsList className="flex justify-between items-start  overflow-x-scroll no-scrollbar  pt-0 px-3 rounded-none bg-white border-b-2 border-b-sri-neutral-100 ">
+      <TabsList className="flex justify-between items-start  overflow-x-scroll overflow-y-hidden no-scrollbar  pt-0 px-3 rounded-none bg-white border-b-2 border-b-sri-neutral-100 ">
         {triggers.map((t) => (
           <TabsTrigger
             key={t.id}

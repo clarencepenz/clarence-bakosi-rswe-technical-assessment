@@ -33,7 +33,7 @@ export default function BottomNavTab({
       defaultValue={defaultValue}
       className="w-full flex flex-col flex-col-reverse"
     >
-      <TabsList className="flex justify-between overflow-x-auto overflow-y-hidden py-8 px-4 rounded-none bg-white border-t border-t-sri-neutral-100">
+      <TabsList className="flex justify-between py-8 px-4 rounded-none bg-white border-t border-t-sri-neutral-100">
         {triggers.map((t) => (
           <TabsTrigger
             key={t.id}
